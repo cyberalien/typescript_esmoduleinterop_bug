@@ -1,6 +1,7 @@
 {
 	"extends": "../tsconfig-base.json",
 	"compilerOptions": {
+		"esModuleInterop": true /* Duplicate entry - it already exists in ../tsconfig-base.json, but it is ignored in both files */,
 		"outDir": "../lib",
 		"rootDir": "."
 	}
