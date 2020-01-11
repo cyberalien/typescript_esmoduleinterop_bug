@@ -13,7 +13,7 @@
 	"devDependencies": {
 		"@types/node": "^13.1.6",
 		"@types/request": "^2.48.4",
-		"typescript": "^3.7.4"
+		"typescript": "^3.8.0-dev.20200111"
 	},
 	"dependencies": {
 		"request": "^2.88.0"
