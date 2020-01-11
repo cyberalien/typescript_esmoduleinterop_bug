@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"esModuleInterop": true,
+		"noEmit": true
+	},
+	"references": [
+		{
+			"path": "./src/tsconfig.json"
+		},
+		{
+			"path": "./tests/tsconfig.json"
+		}
+	]
+}

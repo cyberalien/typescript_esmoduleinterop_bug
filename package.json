@@ -1,0 +1,21 @@
+{
+	"name": "typescript_esmoduleinterop_bug",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"pretest": "rm -rf lib tests-compiled",
+		"test": "tsc -b"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^13.1.6",
+		"@types/request": "^2.48.4",
+		"typescript": "^3.7.4"
+	},
+	"dependencies": {
+		"request": "^2.88.0"
+	}
+}
